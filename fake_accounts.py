@@ -1,6 +1,7 @@
+#Es fake accounts 
 from faker import Faker
 import random 
-from load import characters
+from data import characters
 fake = Faker()
 
 def create_fake_account():

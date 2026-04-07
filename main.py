@@ -1,3 +1,5 @@
+#ES main file
+ 
 from create import create
 from fake_accounts import create_fake_account
 from load import load_data, save, stats
@@ -11,7 +13,7 @@ def main():
     while True:
         print("1 Create Character\n2 Show Stats\n3 Graph Character\n4 Save\n5 Fake Profile\n6 Exit")
 
-        choice = input("choice: ")
+        choice = input("Choice: ")
 
         if choice == "1":
             create()

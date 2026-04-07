@@ -1,8 +1,8 @@
+#ES load file
 import os 
 import pandas as pd
-from create import CSV_FILE
+from data import CSV_FILE, characters
 
-characters = []
 
 def load_data():
     if os.path.exists(CSV_FILE):

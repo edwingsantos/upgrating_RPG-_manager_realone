@@ -1,15 +1,16 @@
-from load import characters
+#ES create file 
+from data import characters
 from faker import Faker
 fake = Faker()
 
-CSV_FILE = "user.csv"
+
 
 def create():
     name = input("Enter name: ")
 
     print("Choose class:")
     print("1 Warrior\n2 Mage\n3 Archer")
-    c = input("> ")
+    c = input("Choice ")
 
     if c == "1":
         char_class = "Warrior"

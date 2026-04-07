@@ -1,4 +1,5 @@
-from load import characters
+#ES graph file 
+from data import characters
 import math 
 import matplotlib.pyplot as plt
 
